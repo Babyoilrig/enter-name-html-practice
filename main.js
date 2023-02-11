@@ -34,6 +34,7 @@
     function getInputValue(){
         var inputVal = document.getElementById("nameInput").value;
         console.log(inputVal);
+        document.getElementById("newText").innerHTML = `Hello ${inputVal}! Welcome to the site!`;
     }
 
     
