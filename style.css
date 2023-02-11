@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+
+}
+
+h1{
+    color:darkgoldenrod;
+    font-size: 60px;
+}
+
+.flex-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.name-input {
+    width: 200px;
+    height: 40px;
+    border: 5px;
+    border-color: black;
+}
+
+.submit-button {
+    transition-duration: 0.4s;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+  .submit-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
